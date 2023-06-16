@@ -4,7 +4,11 @@
 
 @font-face {
   font-family: 'Inter';
+<<<<<<< HEAD
   src: url('../public/inter.ttf');
+=======
+  src: url('public/inter.ttf');
+>>>>>>> main
   font-style: medium;
   font-weight: normal;
   font-display: swap;
@@ -12,6 +16,7 @@
 
 @font-face {
   font-family: 'Cursive';
+<<<<<<< HEAD
   src: url('../public/cursive.ttf');
   font-style: medium;
   font-weight: normal;
@@ -21,6 +26,9 @@
 @font-face {
   font-family: 'Pixels';
   src: url('../public/pixel.ttf');
+=======
+  src: url('public/cursive.ttf');
+>>>>>>> main
   font-style: medium;
   font-weight: normal;
   font-display: swap;
@@ -31,17 +39,24 @@
 }
 
 body {
+<<<<<<< HEAD
   background-color: #F5F5F5;
+=======
+  background-color: white;
+>>>>>>> main
 }
 
 .cursive {
   font-family: "Cursive";
 }
 
+<<<<<<< HEAD
 .pixel {
   font-family: "Pixels";
 }
 
+=======
+>>>>>>> main
 .background-animate {
   background-size: 400%;
 

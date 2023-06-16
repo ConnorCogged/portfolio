@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 //@ts-nocheck
 "use client"
 /* eslint-disable @next/next/no-head-element */
 
 import { useEffect, useRef } from 'react';
+=======
+/* eslint-disable @next/next/no-head-element */
+>>>>>>> main
 import '../styles/globals.css'
 
 export default function RootLayout({
@@ -10,6 +14,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+<<<<<<< HEAD
   const ref = useRef(null);
 
   useEffect(() => {
@@ -24,11 +29,17 @@ export default function RootLayout({
       window.removeEventListener("mousedown", handleClick);
     };
   }, [ref]);
+=======
+>>>>>>> main
   return (
     <html>
       <head>
       </head>
       <body>{children}</body>
     </html>
+<<<<<<< HEAD
   )
+=======
+  );
+>>>>>>> main
 }
