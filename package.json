@@ -2,10 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
-<<<<<<< HEAD
     "moddev" : "next dev",
-=======
->>>>>>> main
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
