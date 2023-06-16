@@ -5,7 +5,7 @@ import { useEffect, useRef } from "react";
 export default function Page() {
   return (
     <div>
-      <header className='text-center text-4xl font-extrabold'>Introduction</header>
+      <header className='mt-6 text-center text-4xl font-extrabold'>Introduction</header>
       <hr className='m-8'/>
       <div id='introduction'>
         <p className="cursive text-center text-6xl mt-4 font-extrabold text-transparent bg-clip-text bg-gradient-to-bl from-pink-500 via-red-500 to-yellow-500 background-animate">Connor Johnson</p>
