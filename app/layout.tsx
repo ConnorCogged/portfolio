@@ -3,6 +3,8 @@
 /* eslint-disable @next/next/no-head-element */
 
 import { useEffect, useRef } from 'react';
+
+/* eslint-disable @next/next/no-head-element */
 import '../styles/globals.css'
 
 export default function RootLayout({
