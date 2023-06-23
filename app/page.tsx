@@ -49,5 +49,6 @@ export default function Page() {
         <a href='mailto:hello@connorcogged.com' className='m-4 text-xl items-center justify-center flex flex-col mx-auto rounded-md bg-green-500 text-white p-2 w-10/12 max-w-3xl'>What are you waiting for?</a>
       </div>
     </div>
+    </div>
   );
 }
