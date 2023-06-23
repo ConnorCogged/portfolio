@@ -12,23 +12,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const ref = useRef(null);
-
-  useEffect(() => {
-    const handleClick = (event) => {
-      const text = document.createElement("h5", "test")
-      text.parentElement = document.body
-    };
-
-    window.addEventListener("mousedown", handleClick);
-
-    return () => {
-      window.removeEventListener("mousedown", handleClick);
-    };
-  }, [ref]);
   return (
     <html>
       <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
       </head>
       <body>{children}</body>
     </html>
