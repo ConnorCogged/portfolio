@@ -15,6 +15,8 @@ export default function Page() {
       <hr className='m-8'/>
       <div id='experiences'>
         <header className="text-4xl text-center font-extrabold">Experience</header>
+        <div className='self-center justify-center text-center grid grid-cols-1 mt-4 grid-flow-row-dense'>
+          <Experience description='During this time, I developed things such as Discord bots & Minecraft plugins. I made several Minecraft plugins for a pretty penny, my Discord bot was for a popular Twitch streamer at the time.' imagesrc="https://abs.twimg.com/emoji/v2/svg/1f4dd.svg" time='2021-2023'>Freelancing</Experience>
         <div className='flex self-center justify-center w-full mb-8 text-center'>
           <Experience description='At ICC, I developed Java plugins to help maintain their minigames system. This API would make development faster and easier!' imagesrc="https://cdn.discordapp.com/icons/914319745770221578/ee72fad7b3e26f0f3a74bfbf9c2f37d6.webp" time='2022-2023'>ICC</Experience>
         </div>
@@ -24,10 +26,11 @@ export default function Page() {
       <hr className='m-8'/>
       <div id='languages'>
         <header className='m-6 text-center text-4xl font-extrabold'>My stack</header>
-        <div className='mx-auto justify-center items-center grid grid-cols-4 gap-2 mt-4'>
+        <div className='mx-auto justify-items-center items-center grid grid-cols-4 gap-2 mt-4 grid-flow-row-dense'>
             <Language languageName='CSharp' time='3 years'/>
             <Language languageName='Javascript' time='3 years'/>
-            <Language languageName='IntelliJ' time='1.5 years'/>
+            <Language languageName='CSharp' time='3 years'/>
+            <Language languageName='Javascript' time='3 years'/>
             <Language languageName='Java' time='2 years'/>
             <Language languageName='Arduino' time='2 months'/>
             <Language languageName='React' time='1 year'/>
@@ -38,11 +41,12 @@ export default function Page() {
             <Language languageName='Typescript' time='2 years'/>
             <Language languageName='CSS3' time='4 years'/>
         </div>
+        <p className="text-xl text-center font-extrabold">...and more!</p>
       </div>
       <hr className='m-8'/>
       <div id='ending'>
-        <header className='m-6 text-center text-6xl font-extrabold'>🤝 Let's work together 🤝</header>
-        <a href='mailto:hello@connorcogged.com' className='m-4 text-2xl items-center justify-center flex flex-col mx-auto rounded-md bg-green-500 text-white p-2 w-4/12'>🚀 What are you waiting for? 🚀</a>
+        <header className='m-6 text-center text-6xl font-extrabold'>Let's work together</header>
+        <a href='mailto:hello@connorcogged.com' className='m-4 text-xl items-center justify-center flex flex-col mx-auto rounded-md bg-green-500 text-white p-2 w-10/12 max-w-3xl'>What are you waiting for?</a>
       </div>
     </div>
   );
