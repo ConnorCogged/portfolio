@@ -17,6 +17,7 @@ export default function Page() {
         <header className="text-4xl text-center font-extrabold">Experience</header>
         <div className='self-center justify-center text-center grid grid-cols-1 mt-4 grid-flow-row-dense'>
           <Experience description='During this time, I developed things such as Discord bots & Minecraft plugins. I made several Minecraft plugins for a pretty penny, my Discord bot was for a popular Twitch streamer at the time.' imagesrc="https://abs.twimg.com/emoji/v2/svg/1f4dd.svg" time='2021-2023'>Freelancing</Experience>
+        <div className='flex self-center justify-center w-full mb-8 text-center'>
           <Experience description='At ICC, I developed Java plugins to help maintain their minigames system. This API would make development faster and easier!' imagesrc="https://cdn.discordapp.com/icons/914319745770221578/ee72fad7b3e26f0f3a74bfbf9c2f37d6.webp" time='2022-2023'>ICC</Experience>
         </div>
         <p className="text-2xl text-center font-extrabold">It's not a whole lot, but you can help me enlarge it!</p>
@@ -26,6 +27,8 @@ export default function Page() {
       <div id='languages'>
         <header className='m-6 text-center text-4xl font-extrabold'>My stack</header>
         <div className='mx-auto justify-items-center items-center grid grid-cols-4 gap-2 mt-4 grid-flow-row-dense'>
+            <Language languageName='CSharp' time='3 years'/>
+            <Language languageName='Javascript' time='3 years'/>
             <Language languageName='CSharp' time='3 years'/>
             <Language languageName='Javascript' time='3 years'/>
             <Language languageName='Java' time='2 years'/>
