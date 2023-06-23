@@ -5,7 +5,7 @@ export const Language = ({
     languageName : string,
     time : string,
 }) => {
-  let img = `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${languageName.toLowerCase()}/${languageName.toLowerCase() == "tailwindcss" ? `${languageName.toLowerCase()}-original-wordmark` : `${languageName.toLowerCase()}-original`}.svg`
+  let img = `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${languageName.toLowerCase()}/${languageName.toLowerCase() == "tailwindcss" ? `${languageName.toLowerCase()}-plain` : `${languageName.toLowerCase()}-original`}.svg`
   return (
     <div className='align-top inline-block text-center mx-auto justify-items-center items-center'>
         <img className='w-16 align-top inline-block text-center mx-auto' src={img}/>
