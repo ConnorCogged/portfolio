@@ -12,7 +12,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const ref = useRef(null);
   return (
     <html>
       <head>

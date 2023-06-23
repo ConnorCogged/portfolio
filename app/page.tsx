@@ -3,6 +3,7 @@ import { Button } from '@/ui/Button';
 import { Experience } from '@/ui/Experience';
 import { Language } from '@/ui/Language';
 import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
 export default function Page() {
   return (
@@ -29,6 +30,8 @@ export default function Page() {
             <Language languageName='Javascript' time='3 years'/>
             <Language languageName='Java' time='2 years'/>
         </div>
+      <div id='languages'>
+        <header className="text-4xl text-center font-extrabold">Languages I can speak!</header>
       </div>
     </div>
   );
