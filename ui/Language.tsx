@@ -9,8 +9,8 @@ export const Language = ({
   return (
     <div className='align-top inline-block text-center mx-auto justify-items-center items-center'>
         <img className='w-16 align-top inline-block text-center mx-auto' src={img}/>
-        <p className='block text-sm font-thin'>{languageName}</p>
-        <p className='block text-xl font-bold'>{time}</p>
+        <p className='dark:text-white block text-sm font-thin'>{languageName}</p>
+        <p className='dark:text-white block text-xl font-bold'>{time}</p>
     </div>
   );
 };
